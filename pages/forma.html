@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Мой компьютер">  	<meta name="author" content="Пустовит В.В. з12928/1">
+  <link rel = "stylesheet" href = "../css/reset.css">
+	<link rel = "stylesheet" href = "../css/formastyle.css">
+	 <link rel="shortcut icon" href="../img/logo.png" type="image/png">
+	<title>Персональный компьютер</title>
+</head>
+
+<body>
+	<div class="site-blok">
+
+<!-- HEADER begin -->
+			<div class="header">
+			  <div class="header-logo"></div>
+				<h1>Мой компьютер</h1>
+				<div class="menu">
+					<div class="mainmenubtn"><a href="index.html">Главная</a></div>
+
+						<div class="dropdownbtn"><a href="index.html">Компоненты</a></p>
+							<div class="dropdownbtn-child">
+								<a href="proc.html">Центральный процессор</a>
+								<a href="mat.html">Материнская плата</a>
+								<a href="hddssd.html">Жесткий диск</a>
+								<a href="ddr.html">Оперативная память</a>
+								<a href="vidcard.html">Видеокарта</a>
+								<a href="cooler.html">Кулер</a>
+								<a href="box.html">Корпус</a>
+							</div>
+						</div>
+						<div class="regbtn"><a href="forma.html">Регистрация</a></div>
+						<div class="findbtn"><a href="404.html">Поиск</a></div>
+				</div>
+			</div>
+<!-- HEADER end -->
+<!-- CONTENT begin -->
+<div class="blok-wrapper">
+<div class="blok-content">
+	<!-- <img src="../img/glpng.png"> -->
+	<h1>Регистрация</h1>
+	<p>Регистрация нового пользователя</p>
+	<center>
+		<form action="#">
+					<fieldset class="form">
+						<fieldset class="info">
+							<label for="name">Имя</label><p class="input"><input name="name" id="name" pattern="^[А-Яа-яA-Za-z]+$" required value="Владимир"><span class="ok">&#10003;</span><span class="nook">&#10005;</span></p>
+							<label for="surname">Фамилия</label><p class="input"><input name="surname" id="surname" pattern="^[А-Яа-яA-Za-z]+$" required value="Пустовит"><span class="ok">&#10003;</span><span class="nook">&#10005;</span></p>
+							<label for="city">Город</label><p class="input"><input name="city" id="city" pattern="^[А-Яа-яA-Za-z\-]+$" required value="Санкт-Петербург"><span class="ok">&#10003;</span><span class="nook">&#10005;</span></p>
+						</fieldset>
+						<fieldset class="login">
+							<label for="email">Email</label><p class="input"><input type="email" name="email" id="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required value="pust89@yandex.ru"><span class="ok">&#10003;</span><span class="nook">&#10005;</span></p>
+							<label for="password">Пароль</label><p class="input"><input type="password" name="password" id="password" minlength="6" pattern="[А-Яа-яA-Za-z0-9]+$" required value=""><span class="ok">&#10003;</span><span class="nook">&#10005;</span></p>
+						</fieldset>
+						<fieldset class="captcha">
+							<legend>Введите число с картинки</legend>
+							<label for="captcha"><img src="../img/cappng.png" alt="captcha"></label><p class="field"><input name="captcha" id="captcha" pattern ="123456" required value="12345"><span class="ok">&#10003;</span><span class="nook">&#10005;</span><span id="bad_captcha"></span>
+						</fieldset>
+					</fieldset>
+					<fieldset class="button">
+						<input type="image" src="../img/regpng.png" alt="Зарегистрироваться">
+					</fieldset>
+				</form>
+	</center>
+
+</div>
+</div>
+<!-- CONTENT end -->
+
+<!-- FOOTER start -->
+<div class="footer">
+  <p>Автор сайта Пустовит Владимир.</p>
+</div>
+<!-- FOOTER start -->
+
+</div>
+</body>
+</html>
